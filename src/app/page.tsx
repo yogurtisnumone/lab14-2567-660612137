@@ -55,7 +55,7 @@ export default function Home() {
       </Group>
 
       <Text ta="center" my="sm" fz={15} c="rgb(134, 142 150)" >
-        <Footer year = "2024" name = "Kachapat Punthong" id = "660612137" />
+        <Footer year = {2024} name = "Kachapat Punthong" id = {660612137} />
       </Text>
       
     </Container>
