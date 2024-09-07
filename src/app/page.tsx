@@ -30,6 +30,7 @@ export default function Home() {
       <Button color="orange">
         Submit Review
       </Button>
+      <Divider my="sm" />
 
       <Title order={3}>Reviews</Title>
       
