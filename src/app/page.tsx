@@ -34,7 +34,7 @@ export default function Home() {
 
       <Title order={3}>Reviews</Title>
       
-      <Text mt="sm">
+      <Text >
         Elon Musk <Rating defaultValue={5} size="lg" />
       </Text>
       <Divider my="sm" />
