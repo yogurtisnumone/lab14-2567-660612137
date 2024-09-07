@@ -39,6 +39,9 @@ export default function Home() {
       </Group>
       <Text fz={15} ta = "center" c="rgb(134 , 142 , 150)" >Best pizza in this world. I give you X score.</Text>
 
+      <Space h="sm"/>
+      <Divider/>
+
       <Footer
         year={2024}
         name="Kachapat Punthong"
