@@ -16,7 +16,7 @@ export default function Home() {
       <Space h="sm"/>
 
       <Title order={4}>Your rating</Title>
-      <Rating value={rating} onChange={setRating} size="lg" />
+      <Rating value={0} size="lg" />
 
       <Textarea
         label= "Your rating"
