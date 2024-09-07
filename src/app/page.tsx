@@ -37,7 +37,7 @@ export default function Home() {
       <Title order={4}>Elon Musk</Title>
       <Rating value={5} readOnly/>
       </Group>
-      <Text ta = "center" c="rgb(134 , 142 , 150)" > "Best pizza in this world. I give you X score." </Text>
+      <Text size="15" ta = "center" c="rgb(134 , 142 , 150)" > "Best pizza in this world. I give you X score." </Text>
 
       <Footer
         year={2024}
