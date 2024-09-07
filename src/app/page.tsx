@@ -37,7 +37,7 @@ export default function Home() {
       </Text>
       <Divider my="sm" />
       <Text>
-        Example review: "It was okay, could be better." (⭐ 3)
+        Example review: "It was okay, could be better." 
       </Text>
 
       <div style={{ display: 'flex', justifyContent: 'center', marginTop: 'lg' }}>
