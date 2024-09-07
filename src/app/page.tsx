@@ -56,9 +56,9 @@ export default function Home() {
 
       <Text ta="center" my="sm" c="rgb(134 , 142 , 150)">
         <Footer
-          year={2024}
+          year="2024"
           name="Kachapat Punthong"
-          id={660612137}
+          id="660612137"
         />
       </Text>
       
