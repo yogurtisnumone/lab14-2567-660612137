@@ -10,12 +10,13 @@ export default function Home() {
   return (
     <Container size="600px">
       
-      <Title order={2} style={{ textAlign: 'center' }} mb="md">
+      <Title order={2} >
         Food Review 🍕
       </Title>
 
-      <Title order={3}>Write your review</Title>
-      <Rating value={rating} onChange={setRating} size="xl" />
+      <Title order={4}>Your rating</Title>
+      <Rating value={rating} onChange={setRating} size="lg" />
+      
       <Textarea
         placeholder="Write your review here..."
         mt="sm"
