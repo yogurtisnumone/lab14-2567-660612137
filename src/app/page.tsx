@@ -31,8 +31,6 @@ export default function Home() {
         Submit Review
       </Button>
       <Divider my="sm" />
-
-      <Title order={3}>Reviews</Title>
       
       <Text >
         Elon Musk <Rating defaultValue={5} size="lg" />
