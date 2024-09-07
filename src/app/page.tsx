@@ -54,11 +54,14 @@ export default function Home() {
         <Pagination total={20} color="orange" />
       </Group>
 
-      <Footer
-        year={2024}
-        name="Kachapat Punthong"
-        id={660612137}
-      />
+      <Text c="rgb(134 , 142 , 150)">
+        <Footer
+          year={2024}
+          name="Kachapat Punthong"
+          id={660612137}
+        />
+      </Text>
+      
     </Container>
   );
 }
