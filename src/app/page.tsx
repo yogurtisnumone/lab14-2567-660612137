@@ -20,12 +20,12 @@ export default function Home() {
       <Space h="sm"/>
 
       <Textarea
-        label= "Your rating"
+        label= "Your review"
         placeholder="Do you enjoy eating?"
         autosize
         minRows={3}
       />
-      
+
       <Button fullWidth mt="sm" onClick={() => alert("Review submitted!")}>
         Submit Review
       </Button>
