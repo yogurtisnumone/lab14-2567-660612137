@@ -42,6 +42,14 @@ export default function Home() {
       <Space h="sm"/>
       <Divider/>
 
+
+      <Space h="sm"/>
+      <Group gap="lg" justify="center">
+      <Title order={4}>Mark Zuck</Title>
+      <Rating value={4} readOnly/>
+      </Group>
+      <Text fz={15} ta = "center" c="rgb(134 , 142 , 150)" >My favourite part is pepperoni</Text>
+
       <Footer
         year={2024}
         name="Kachapat Punthong"
