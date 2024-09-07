@@ -17,6 +17,7 @@ export default function Home() {
 
       <Title order={4}>Your rating</Title>
       <Rating value={0} size="lg" />
+      <Space h="sm"/>
 
       <Textarea
         label= "Your rating"
@@ -24,8 +25,7 @@ export default function Home() {
         autosize
         minRows={3}
       />
-      <Space h="sm"/>
-
+      
       <Button fullWidth mt="sm" onClick={() => alert("Review submitted!")}>
         Submit Review
       </Button>
