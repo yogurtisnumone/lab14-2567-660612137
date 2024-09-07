@@ -1,5 +1,5 @@
 "use client";
-import { Container, Title, Rating, Textarea, Button, Text, Divider, Group, Pagination } from "@mantine/core";
+import { Container, Title, Rating, Textarea, Button, Text, Divider, Group, Pagination, Space } from "@mantine/core";
 import { useState } from "react";
 import Footer from "@components/Footer";
 
@@ -13,17 +13,17 @@ export default function Home() {
       <Title order={2} >
         Food Review 🍕
       </Title>
+      <Space h="sm"/>
 
       <Title order={4}>Your rating</Title>
       <Rating value={rating} onChange={setRating} size="lg" />
-      
+
       <Textarea
-        placeholder="Write your review here..."
-        mt="sm"
-        value={review}
-        onChange={(e) => setReview(e.currentTarget.value)}
+        label= "Your rating"
+        placeholder="Do you enjoy eating?"
         autosize
         minRows={4}
+        
       />
       <Button fullWidth mt="sm" onClick={() => alert("Review submitted!")}>
         Submit Review
