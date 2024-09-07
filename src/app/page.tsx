@@ -32,6 +32,11 @@ export default function Home() {
       <Space h="sm"/>
       <Divider/>
       
+      <Space h="sm"/>
+      <Group gap="lg" justify="center">
+      <Title order={4}> Elon Musk</Title>
+      <Rating value={5} readOnly/>
+      </Group>
       
 
       <Footer
