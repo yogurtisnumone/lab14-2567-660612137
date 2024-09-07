@@ -35,10 +35,9 @@ export default function Home() {
       <Space h="sm"/>
       <Group gap="lg" justify="center">
       <Title order={4}>Elon Musk</Title>
-      <Text ta = "center" > "Best pizza in this world. I give you X score." </Text>
       <Rating value={5} readOnly/>
       </Group>
-      
+      <Text ta = "center" > "Best pizza in this world. I give you X score." </Text>
 
       <Footer
         year={2024}
