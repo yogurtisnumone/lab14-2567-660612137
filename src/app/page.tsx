@@ -1,11 +1,10 @@
 "use client";
 import { Container, Title, Rating, Textarea, Button, Text, Divider, Group, Pagination, Space } from "@mantine/core";
-import { useState } from "react";
+
 import Footer from "@components/Footer";
 
 export default function Home() {
-  const [review, setReview] = useState(""); 
-  const [rating, setRating] = useState(0);  
+  
 
   return (
     <Container size="600px">
