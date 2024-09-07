@@ -31,8 +31,6 @@ export default function Home() {
         Submit Review
       </Button>
 
-      <Divider my="xl" />
-
       <Title order={3}>Reviews</Title>
       
       <Text mt="sm">
