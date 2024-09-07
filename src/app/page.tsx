@@ -50,6 +50,10 @@ export default function Home() {
       </Group>
       <Text fz={15} ta = "center" c="rgb(134 , 142 , 150)" >My favourite part is pepperoni</Text>
 
+      <Group justify="center" mt="lg">
+        <Pagination total={20} color="orange" />
+      </Group>
+
       <Footer
         year={2024}
         name="Kachapat Punthong"
