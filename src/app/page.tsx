@@ -36,13 +36,6 @@ export default function Home() {
         Elon Musk <Rating defaultValue={5} size="lg" />
       </Text>
       <Divider my="sm" />
-      <Text>
-        Example review: "It was okay, could be better." 
-      </Text>
-
-      <div style={{ display: 'flex', justifyContent: 'center', marginTop: 'lg' }}>
-        <Pagination total={3} />
-      </div>
 
       <Footer
         year={2024}
