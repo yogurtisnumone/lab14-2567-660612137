@@ -29,12 +29,10 @@ export default function Home() {
       <Button color="orange">
         Submit Review
       </Button>
-      <Divider my="sm" />
+      <Space h="sm"/>
+      <Divider/>
       
-      <Text >
-        Elon Musk <Rating defaultValue={5} size="lg" />
-      </Text>
-      <Divider my="sm" />
+      
 
       <Footer
         year={2024}
