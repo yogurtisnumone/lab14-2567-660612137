@@ -22,9 +22,10 @@ export default function Home() {
         label= "Your rating"
         placeholder="Do you enjoy eating?"
         autosize
-        minRows={4}
-        
+        minRows={3}
       />
+      <Space h="sm"/>
+
       <Button fullWidth mt="sm" onClick={() => alert("Review submitted!")}>
         Submit Review
       </Button>
