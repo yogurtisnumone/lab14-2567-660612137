@@ -26,7 +26,7 @@ export default function Home() {
         minRows={3}
       />
       <Space h="sm"/>
-      
+
       <Button color="orange">
         Submit Review
       </Button>
@@ -35,7 +35,7 @@ export default function Home() {
       <Title order={3}>Reviews</Title>
       
       <Text mt="sm">
-        Example review: "Great food, loved it!" (⭐ 5)
+        Elon Musk <Rating defaultValue={5} size="lg" />
       </Text>
       <Divider my="sm" />
       <Text>
